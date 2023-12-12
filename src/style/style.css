@@ -1,0 +1,108 @@
+/*Header*/
+
+.main-nav-wrapper {
+    position: fixed;
+    bottom: -2px;
+    width: 100%;
+    z-index: 1;
+    height: auto;
+}
+
+.nav-ul-link {
+    display: none;
+}
+
+.nav-ul-icon {
+    font-size: 25px;
+}
+
+.content {
+    max-width: 1200px;
+    margin: 20px 20px;
+}
+
+@media only screen and (min-width:769px) {
+    .main-nav-wrapper {
+        top: 0px;
+        height: 0;
+    }
+
+    .nav-ul-link {
+        display: flex;
+    }
+
+    .nav-ul-icon {
+        display: none;
+    }
+
+    .content {
+        max-width: 1200px;
+        margin: 50px auto;
+    }
+}
+
+.home-container {
+    margin: 50px;
+}
+
+
+
+.cardimg {
+    width: 100%;
+    min-height: 160px;
+}
+
+.form-element {
+    max-width: 250px;
+    margin: auto;
+}
+
+.container {
+    margin-bottom: 100px;
+}
+
+.card-top-container {
+    height: 160px;
+}
+
+.post-title {
+    font-size: 1.0rem;
+}
+
+.dash-user {
+    text-align: center;
+}
+.card-intern{
+display: flex;
+}
+
+p.intern-exc {
+    font-size: 13px;
+}
+.card-body{
+    padding: 5px;
+}
+img.intern.cardimg {
+    height: 100%;
+    object-fit: cover;
+}
+
+.uk-card-footer.intern{
+    padding: 10px 30px ;
+}
+.uk-card-media-intern{
+    width: inherit;
+}
+
+.uk-card-footer.podcast {
+    display: flow-root;
+    padding: 5px 30px;
+}
+
+.uk-card-body.podcast {
+    padding: 10px;
+}
+.login-btn{
+    margin: auto;
+    max-width: fit-content;
+}
