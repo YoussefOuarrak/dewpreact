@@ -1,7 +1,4 @@
 import React, { Component } from 'react';
-import Header from './HeaderComponent';
-import Slider from './Slider';
-import Home from './HomeComponent';
 import { Route, Routes } from 'react-router';
 import Post from './SinglepostComponenet';
 import Posts from './postComponent';
@@ -20,7 +17,7 @@ class Main extends Component {
 
     render() {
         return (
-            <div className='container'>
+            <div >
                 <Routes >
                     {/* <Route path='/' element={<Home />} /> */}
                     <Route path='/' element={<Todo />} />
