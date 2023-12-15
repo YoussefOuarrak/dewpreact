@@ -37,7 +37,7 @@ const Header = () => {
                         </Link>
                     </li>
                     <li>
-                        <Link to={{ pathname: "/dashboard/" }} className={location.pathname === '/dashboard/' ? 'active' : ''} > <i class="mdi mdi-beaker"></i>
+                        <Link to={{ pathname: "/login" }} className={location.pathname === '/dashboard/' ? 'active' : ''} > <i class="mdi mdi-beaker"></i>
                             <span>Features</span>
                         </Link>
                     </li>
