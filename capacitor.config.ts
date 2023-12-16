@@ -1,8 +1,8 @@
 import { CapacitorConfig } from '@capacitor/cli';
 
 const config: CapacitorConfig = {
-  appId: 'com.example.app',
-  appName: 'dewpreact',
+  appId: 'com.learnme.com',
+  appName: 'learn me',
   webDir: 'build',
   server: {
     androidScheme: 'https'

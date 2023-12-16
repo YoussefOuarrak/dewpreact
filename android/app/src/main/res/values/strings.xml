@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <resources>
-    <string name="app_name">dewpreact</string>
-    <string name="title_activity_main">dewpreact</string>
-    <string name="package_name">com.example.app</string>
-    <string name="custom_url_scheme">com.example.app</string>
+    <string name="app_name">learn me</string>
+    <string name="title_activity_main">learn me</string>
+    <string name="package_name">com.learnme.com</string>
+    <string name="custom_url_scheme">com.learnme.com</string>
 </resources>
