@@ -1,4 +1,5 @@
 {
-    "name": "learn me",
-    "displayName": "learn me"
-  }
+  "name": "learn me",
+  "integrations": {},
+  "type": "react"
+}
